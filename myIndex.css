@@ -1,0 +1,407 @@
+.container{
+    width: 1190px;
+    margin: 0 auto;
+}
+/* #region頁面頂部START */
+
+.topbar{
+    height: 30px;
+    background-color: #ECECEC;
+}
+.left{
+    height: 30px;
+    line-height: 30px;
+    
+}
+
+.container .left span{
+    margin-right: 28px;
+}
+.container .left :nth-child(2){
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+.container .left :nth-child(3){
+    padding-left: 10px;
+}
+
+.right .list li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.right .list li a{
+    padding: 0 15px;
+    border-left: 1px solid black;
+}
+.topbar .right .list :nth-child(1) :nth-child(1) {
+    border: 0;
+}
+
+/* #region頁面頂部END */
+
+/* #region 頁頭START */
+.header .container{
+    height: 120px;
+}
+.header .search form{
+    font-size: 0;
+    margin-top: 42px    ;
+    /* margin: 0 auto; */
+}
+.header .search input{
+    width: 508px;
+    height: 34px;
+    border: 1px solid #DD302D;
+    vertical-align: top;
+}
+.header .search button{
+    width: 80px;
+    height: 36px;
+    /* vertical-align: top; */
+    background-color: #DD302D;
+    background-image: url('./images/serch_icon.png');
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+}
+/* #endregion 頁頭END */
+
+/* #region 導航區START */
+.nav{
+    border-bottom: 1px solid #DD302D;
+}
+.nav .all{
+    width: 190px;
+    height: 48px;
+    background-color: #DD302D;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+}
+.nav .list{
+    height: 48px;
+    line-height: 48px   ;
+}
+.nav .list li{
+    float: left;
+}
+.nav .list ul li a{
+    padding: 0px 10px;
+}
+
+/* #endregion 導航區END */
+
+/* #region 主要內容START */
+.main{
+    margin-top: 10px;
+}
+.main .slide{
+    width: 190px;
+    height: 458px;
+    background-color: #F4F4F4;
+    position: relative;
+}
+.main .slide li {
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 16px;
+}
+.main .slide li:hover{
+    background-color: #DD302D;
+}
+.main .slide li:hover>a{
+    color: white;
+}
+.main .slide li:hover div{
+    display: block;
+}
+.main .slide li div{
+    width: 700px;
+    height: 458px;
+    background-color: #F4F4F4;
+    position: absolute;
+    top: 0;
+    left: 190px;
+    display: none;
+}
+.main .slide li div dl{
+    padding-top: 10px;
+}
+.main .slide li div dt,dd{
+    float: left;
+}
+.main .slide li div dt{
+    width: 70px;
+    font-weight: bolder;
+    margin: 0 15px;
+
+}
+.main .slide li div dd a{
+    padding: 0 10px;
+    border-left: 1px solid black;
+}
+.main .banner{
+    width: 690px;
+    height: 458px;
+    margin: 0 10px;
+}
+.main .slide_other{
+    width: 290px;
+    height: 458px;
+}
+.main .slide_other .msg{
+    width: 260px;
+    height: 156px;
+    padding: 0 14px;
+    border: 1px solid #d9d9d9;
+}
+.main .slide_other .msg .title{
+    border-bottom: 1px solid #d9d9d9;
+}
+.main .slide_other .title span{
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    font-size: 14px;
+}
+.main .slide_other .title a{
+    height: 38px;
+    line-height: 38px;
+    float: right;
+}
+.main .slide_other .msg ul li{
+    height: 26px;
+    line-height: 26px;
+}
+
+.main .slide_other .other_nav{
+    margin-top: 10px;
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+}
+.main .slide_other .other_nav .other-nav-list:first-child{
+    margin-top: 16px;
+}
+
+.other-nav-list:nth-child(2){
+    margin: 17px 0;
+}
+
+.main .slide_other .other_nav li{
+    width: 48px;
+    height: 70px;
+    float: left;
+    margin: 0 11px;
+    text-align: center;
+}
+
+.main .slide_other .other_nav .other-nav-list .picture{
+    width: 48px;
+    height: 48px;
+    background-image: url('./images/精靈圖.png');
+}
+.other-nav-list:nth-child(1) li:nth-child(1) .picture {
+    background-position: 0 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(2) .picture {
+    background-position: -48px 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(3) .picture {
+    background-position: -96px 0;
+}
+.other-nav-list:nth-child(1) li:nth-child(4) .picture {
+    background-position: -144px 0;
+}
+.other-nav-list:nth-child(2) li:nth-child(1) .picture {
+    background-position: 0 -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(2) .picture {
+    background-position: -48px -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(3) .picture {
+    background-position: -96px -48px;
+}
+.other-nav-list:nth-child(2) li:nth-child(4) .picture {
+    background-position: -144px -48px;
+}
+.other-nav-list:nth-child(3) li:nth-child(1) .picture {
+    background-position: 0 -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(2) .picture {
+    background-position: -48px -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(3) .picture {
+    background-position: -96px -96px;
+}
+.other-nav-list:nth-child(3) li:nth-child(4) .picture {
+    background-position: -144px -96px;
+}
+/* #endregion 主要內容END */
+
+
+/* #region秒殺區START */
+.seckill{
+    margin-top: 10px;
+}
+.seckill .container img{
+    float: left;
+    margin-right: 11px;
+    cursor: pointer;
+}
+.seckill .container img:last-child{
+    margin-right: 0;
+}
+/* #endregion秒殺區END */
+
+/* #region 尚品匯樓層START */
+.floor .container{
+    margin-top: 48px;
+    height: 480px;
+}
+.floor-nav{
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #dd302d;
+}
+.floor-nav span{
+    font-size: 16px;
+    float: left;
+}
+.floor-nav ul li{
+    float: left;
+}
+.floor-nav ul li a{
+    padding: 0 10px;
+    border-right: 1px solid #666;
+
+}
+.floor-nav ul li:first-child a{
+    padding-left: 0px;
+}
+.floor-nav ul li:last-child a{
+    padding-right: 0px;
+    border-right: 0;
+}
+.floor-info .item{
+    float: left;
+}
+.floor-info .item1{
+    width: 190px;
+    height: 392px;
+    padding: 20px;
+}
+.floor-info .item1 li{
+    width: 90px;
+    height: 22px;
+    padding-bottom: 3.5px;
+    border-bottom: 1px solid #d9d9d9;
+    text-align: center;
+    font-size: 16px;
+}
+.floor-info .item1 li:nth-child(3),
+.floor-info .item1 li:nth-child(4){
+    margin: 14.4px 0;
+}
+.floor-info .item1 li:nth-child(2n-1){
+    float: left;
+}
+.floor-info .item1 li:nth-child(2n){
+    float: right;
+}
+.floor-info .item1-list img{
+    margin-top: 29px ;
+}
+
+
+.floor-info .item2{
+    width: 340px;
+    height: 432px;
+}
+.floor-info .item3{
+    width: 206px;
+    height: 432px;
+    border-right: 1px solid #e2e2e2;
+}
+.floor-info .item3 img,
+.floor-info .item4 img,
+.floor-info .item5 img{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.floor-info .item4{
+    width: 206px;
+    height: 432px;
+    border-right: 1px solid #e2e2e2;
+}
+.floor-info .item5{
+    width: 206px;
+    height: 432px;
+}
+
+
+
+
+/* #endregion 尚品匯樓層END */
+
+/* #region 底部START */
+.footer{
+    height: 440px;
+    background-color: #483e3e;   
+}
+.footer .links-list{
+    margin-top: 48px;
+    margin-right: 10px;
+    width: 190px;
+    height: 176px;
+    float: left;
+}
+.footer .links-list:last-child{
+    margin-right: 0;
+}
+.footer .links-list a{
+    color: white;
+    font-size: 14px;
+}
+.footer .line{
+    margin-top: 22px;
+    height: 1px;
+    background-color: #584d4d;
+}
+
+.bottom-link{
+    text-align: center;
+    margin-top: 47px;
+}
+.footer .bottom-links-list{
+    display: inline-block;
+}
+.footer .bottom-links-list li{
+    float: left;
+}
+.footer .bottom-links-list li a{
+    color: white;
+    padding: 0 26px;
+    border-right: 1px solid white ;
+}
+.footer .bottom-links-list li:first-child a{
+    padding-left: 0;
+}
+.footer .bottom-links-list li:last-child a{
+    padding-right: 0;
+    border-right: 0;
+}
+.copyright{
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+
+
+
+/* #endregion 底部END */
